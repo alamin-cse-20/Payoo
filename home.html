@@ -31,11 +31,11 @@
         <p class="text-[#08080880]">Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
      </div>
      <div class="min-h-[200px] grid grid-cols-3 gap-4 p-3">
-        <div class="borde-2 border border-gray-300 text-center p-3 rounded-xl">
+        <div id="add-button" class="borde-2 border border-gray-300 text-center p-3 rounded-xl">
             <img src="./assets/wallet1.png" alt="" class="mx-auto">
             <h2>Add Money</h2>
         </div>
-        <div class="borde-2 border border-gray-300 text-center p-3 rounded-xl">
+        <div id="cash-out-button" class="borde-2 border border-gray-300 text-center p-3 rounded-xl">
             <img src="./assets/send1.png" alt="" class="mx-auto">
             <h2>Cash Out</h2>
         </div>
@@ -60,7 +60,7 @@
     </div>
     <div class="all-form-section max-w-lg mx-auto">
         <!-- add money -->
-        <div>
+        <div id="add-money-parent">
             <h1 class="my-5 font-bold">Add money</h1>
             <form action="" class=" bg-white rounded-2xl p-8">
                 <div class="mb-3">
@@ -89,6 +89,9 @@
                 </div>
             <button id="add-money-btn" class="btn bg-[#0874f2] text-white mt-5 w-full rounded-3xl">Add Money</button>
             </form>
+        </div>
+        <div id="cash-out-parent">
+            <h1>Cash Out</h1>
         </div>
     </div>
      <script src="./script/home.js"></script>
